@@ -15,6 +15,7 @@
     "body-parser": "^1.20.3",
     "curl": "^0.1.4",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
     "node-readability": "^3.0.0"
   }

@@ -1,11 +1,7 @@
 <%- include('head') %>
-<ul>
     <% articles.forEach((article) => { %>
-        <li>
-            <a href="/articles/<%= article.id %>">
-                <%= article.title %>
-            </a>
-        </li>
+        <div class="alert alert-primary" role="alert">
+            <%= article.title %>
+        </div>
     <% }) %>
-</ul>
 <%- include('foot') %>
